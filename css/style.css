@@ -1,0 +1,206 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Roboto";
+}
+.box {
+  width: 1440px;
+  height: 5000px;
+  top: -2599px;
+  left: -720px;
+  background-color: white;
+  margin-top: 20px;
+}
+.head {
+  width: 1440px;
+  height: 44px;
+  background-color: #454f5b;
+  display: flex;
+
+  align-items: center;
+}
+.head p {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 12%;
+  color: white;
+  margin-left: 453px;
+}
+.head a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 12%;
+  color: white;
+  margin-left: 350px;
+  gap: 24px;
+}
+.head2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.group1 a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  gap: 32px;
+}
+.group2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  gap: 30px;
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.group2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.hero-class {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 100px;
+}
+.lock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+.category-button {
+  width: 288px;
+  height: 40px;
+  top: 286px;
+  left: 100px;
+  border: 1px solid gray;
+  padding: 7px 72px;
+  gap: 10px;
+  background-color: white;
+  text-align: center;
+  transition: all 0.5s;
+}
+.category-button p {
+  margin-top: 3px;
+  width: 144px;
+}
+.category-button:hover {
+  background-color: rgb(170, 169, 169);
+  cursor: pointer;
+}
+.category-buttons {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+.filter {
+  width: 288px;
+  height: 460px;
+  top: 358px;
+  left: 100px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  padding: 24px;
+  gap: 10px;
+  background-color: white;
+  margin-left: 100px;
+  margin-top: 32px;
+}
+.filter-btn {
+  width: 116px;
+  height: 44px;
+  border: 2px solid gray;
+  transition: all 0.5s;
+}
+.filter-btn:hover {
+  border: 2px solid rgb(40, 191, 246);
+  cursor: pointer;
+}
+.filter-btn h4 {
+  margin-top: 13px;
+}
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 39px;
+}
+.n1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card1 {
+  width: 288px;
+  height: 453px;
+  background-color: white;
+  border: 1px solid gray;
+}
+.middle-class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+.rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -20px;
+  gap: 8px;
+  margin-left: 10px;
+}
+.card1 p {
+  width: 264px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+  gap: 12px;
+  margin-top: -10px;
+}
+.sq {
+  color: rgb(163, 161, 161);
+  text-decoration: line-through;
+  font-size: 18px;
+  font-weight: 300;
+}
+.sq2 {
+  text-decoration: line-through;
+  font-size: 20px;
+  font-weight: 600;
+}
